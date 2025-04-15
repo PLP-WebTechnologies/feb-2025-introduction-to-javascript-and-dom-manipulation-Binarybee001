@@ -1,0 +1,156 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.navbar {
+    background-color:maroon;
+    padding: 15px 20px;
+    display: flex;
+    text-align:center;
+    align-items: center;
+    margin:0,auto;
+    
+}
+.navdiv1 {
+    display: flex;
+    justify-content:left ;
+    align-items: center;
+    width: 100%;
+    margin:0,auto;
+    
+}
+.navdiv2 {
+    display: flex;
+    justify-content:right ;
+    align-items: center;
+    width: 100%;
+    margin:0,auto;
+    
+
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding:0 5px;
+    display: inline-block;
+    
+
+}
+.navbar__logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    text-decoration: none;
+    padding:left;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 5px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:right;
+    
+    
+
+}
+.navbar__item :hover {
+    color:aqua;
+    text-decoration:underline; 
+    transition: background-color 0.5s ease, transform 0.5s ease;   
+}
+button {
+    background-color:black;
+    color:white;
+    border-radius:20px;
+    padding:10px 10px;
+    font-weight:bold;
+}
+button:hover {
+    background-color:blue;
+    color:white;
+    border-radius:20px;
+    padding:10px 10px;
+    font-weight:bold;
+    cursor:pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    
+}
+body {
+    background-color:lightsteelblue;
+    font-family:calibri;
+}
+.flex-container {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    background-color:lightsteelblue;
+    margin:5px;
+}
+.item1 {
+    background-color:maroon;
+    text-align:center;
+    border-radius:none;
+    padding:20;
+    color:white;
+    flex-grow:1;
+    
+}
+.item2 {
+    background-color:maroon;
+    text-align:center;
+    border-radius:none;
+    padding:20;
+    color:white;
+    flex-grow:1;
+}
+.item3 {
+    background-color:maroon;
+    text-align:center;
+    border-radius:none;
+    padding:20;
+    color:white;
+    flex-grow:1;
+}
+@media (max-width:768px) {
+        .items {
+            display:flex;
+            flex-direction:column;
+            width:100;
+            position:center;
+            top:20px;
+            left:80px;
+
+        }
+        
+}
+  
+img{
+    border-radius:none;
+    margin:5px;
+    box-shadow:grey 3px 3px 3px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+
+
+
+}
+footer{
+    text-align:center;
+    font-size:medium;
+    font-weight:bold;
+    color:white;
+    background-color:maroon;
+
+}
+
+
+
+    
